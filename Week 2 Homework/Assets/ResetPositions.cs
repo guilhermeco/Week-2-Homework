@@ -7,6 +7,7 @@ public class ResetPositions : MonoBehaviour {
 		GameObject.Find ("RightRamp").GetComponent<BoxCollider> ().enabled = true;
 		GameObject.Find ("RightBall").transform.position = new Vector3 (-15, 15, 0);
 	
+	
 	}
 }
  
